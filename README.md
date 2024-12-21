@@ -20,4 +20,15 @@ This repository contains an implementation of the IR-PFT (Incremental Reuse Part
 The IR-PFT algorithm leverages prior knowledge to enhance efficiency in belief space planning.
 
 ## Prerequisites
-The code is written in Julia. To run the code, ensure you have the following installed:
+The code is written in Julia. To run the code, follow the following steps:
+- Install julia>1.7.0
+- Install environment
+```bash
+julia --project=. -e 'using Pkg; Pkg.instantiate()'
+```
+
+## Usage
+To execute the main script for replicating the experiments described in the paper, run:
+```bash
+julia run_script.jl
+```
